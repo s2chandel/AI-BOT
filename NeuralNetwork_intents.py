@@ -95,9 +95,6 @@ y_pred = model.predict(x_test)
 train_acc = model.evaluate(x_train,y_train)
 test_acc = model.evaluate(x_test, y_test)
 
-# confusiion matrix
-# confusion_matrix(y_test,y_pred)
-
 
 # index2Intent
 labels = data['intent'].values
